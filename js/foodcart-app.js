@@ -10,8 +10,11 @@ FoodCartMap.prototype.initMap = function() {
 
   var panorama = new google.maps.StreetViewPanorama(document.getElementById('map'), {
     position: alderPod,
-    heading: 300,
+    pov: {
+    heading: 288.67,
     pitch: 0
+    }
+
   });
 
 
